@@ -3,7 +3,7 @@ import cv2 as cv
 
 cap = cv.VideoCapture(0)
 
-detectorFace = cv.CascadeClassifier('FaceAndMaskDetection\haarcascade_frontalface_default.xml')
+detectorFace = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 while(True):
     ret, frame = cap.read()
